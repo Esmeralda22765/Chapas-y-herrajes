@@ -440,7 +440,8 @@ textarea.input {
 }
 
 /*----------------------------*\
-	Logo
+	Logo background-color: #15161D;
+  background-image: url('../img/header2.png');
 \*----------------------------*/
 
 #header {
@@ -449,15 +450,16 @@ textarea.input {
   background-color: #15161D;
 }
 
+
+
 .header-logo {
   float: left;
 }
 
 .header-logo .logo img {
   display: block;
-  width:60%;
+  width:40%;
   height: 10vh;
-  border-radius: 15%;
 
   image-rendering:optimizeQuality;
 }
@@ -516,7 +518,7 @@ textarea.input {
   position: relative;
   width: 90px;
   text-align: center;
-  color: #FFF;
+  color: #ffffff;
 }
 
 .header-ctn>div>a>i {
@@ -730,11 +732,11 @@ textarea.input {
   bottom: 0;
   left: 0px;
   width: 60%;
-  background: #D10024;
+  background: #d1002375;
   opacity: 0.9;
-  -webkit-transform: skewX(-45deg);
-  -ms-transform: skewX(-45deg);
-  transform: skewX(-45deg);
+  -webkit-transform: skewX(-35deg);
+  -ms-transform: skewX(-30deg);
+  transform: skewX(135deg);
 }
 
 .shop:after {
@@ -744,7 +746,7 @@ textarea.input {
   bottom: 0;
   left: 1px;
   width: 100%;
-  background: #D10024;
+  background: #1E1F29;
   opacity: 0.9;
   -webkit-transform: skewX(-45deg) translateX(-100%);
   -ms-transform: skewX(-45deg) translateX(-100%);
