@@ -458,8 +458,8 @@ textarea.input {
 
 .header-logo .logo img {
   display: block;
-  width:40%;
-  height: 10vh;
+  width:60%;
+  height: auto;
 
   image-rendering:optimizeQuality;
 }
@@ -467,6 +467,8 @@ textarea.input {
 /*----------------------------*\
 	Search
 \*----------------------------*/
+
+
 
 .header-search {
   padding: 15px 0px;
@@ -692,6 +694,7 @@ textarea.input {
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
   }
+
   #responsive-nav.active {
     -webkit-transform: translateX(0%);
     -ms-transform: translateX(0%);
@@ -712,6 +715,15 @@ textarea.input {
   .main-nav>li>a {
     padding: 15px;
     color: #FFF;
+  }
+
+  .header-logo .logo img {
+    display: block;
+    width:30%;
+    height: auto;
+    margin: auto;
+  
+    image-rendering:optimizeQuality;
   }
 }
 
@@ -2171,6 +2183,7 @@ textarea.input {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  
 }
 
 @media only screen and (max-width: 767px) {
@@ -2196,3 +2209,6 @@ textarea.input {
     margin-top: 10px;
   }
 }
+  
+
+
