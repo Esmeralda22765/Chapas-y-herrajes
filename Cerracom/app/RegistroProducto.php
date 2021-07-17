@@ -62,13 +62,13 @@
     <!-- /HEADER -->
 
     <main class="container">
-        <form>
+        <form action="../datos/Registro_Producto.php" method="POST" enctype="multipart/form-data">
         <section class="form-login">
       <h5>Registrar producto</h5>
          <a>Nombre</a>
       <input class="controls" type="text" name="usuario" value="" placeholder="Nombre">
          <a>Descripcion</a>
-      <input class="controls" type="password" name="producto" value="" placeholder="Descripcion">
+      <input class="controls" type="text" name="producto" value="" placeholder="Descripcion">
          <a>Precio</a>
       <input class="controls" type="text" name="usuario" value="" placeholder="Precio">
         <a>Stock</a> 
@@ -89,7 +89,7 @@
               <input type="File" name="Foto" id="Foto">
        <br><br>
      
-     <input class="buttons" type="submit" name="" value="REGISTRAR">
+     <input class="buttons" type="submit" name="btnProducto" id="btnProducto" value="REGISTRAR">
       <p><a href="#">¿Necesitas ayuda?</a></p>
 
     </section>
